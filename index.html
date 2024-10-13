@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime cards</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/colors.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <main>
+        <div class="animes">
+            <div class="cartoes-animes">
+                <div class="cartao-anime tipo-escolar aberto" id="cartao-rakudai">
+                    <div class="cartao-top">
+                        <div class="detalhes">
+                            <h2 class="nome rakudai">Rakudai Kishi no Cavalry</h2>
+                            <span>#001</span>
+                        </div>
+                        <span class="tipo">Cavaleiros Mágicos</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/img/rakudai.png" alt="Rakudai Kishi no Cavalry">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Rakudai Kishi no Cavalry (ou Chivalry of a Failed Knight em inglês) é um anime que nos leva para um mundo de magia e espadas, onde jovens talentosos se transformam em Cavaleiros Mágicos. A história gira em torno de Ikki Kurogane, um Cavaleiro considerado um fracasso, e sua jornada para se tornar mais forte ao lado da talentosa Stella Vermillion.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-anime tipo-isekai" id="cartao-sword-art-online">
+                    <div class="cartao-top">
+                        <div class="detalhes">
+                            <h2 class="nome">Sword Art Online</h2>
+                            <span>#002</span>
+                        </div>
+                        <span class="tipo">JogoVR</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/img/sword.png" alt="Sword Art Online">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Sword Art Online (SAO) é um anime que nos transporta para um futuro próximo, onde a tecnologia da realidade virtual alcançou níveis inimagináveis. A história gira em torno de um jogo de RPG online extremamente popular chamado Sword Art Online, que promete uma imersão completa em um mundo fantástico.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="listagem">
+                <ul>
+                    <li class="anime ativo" id="rakudai">
+                        <img src="./src/img/rakudai.png">
+                        <span class="rakudai">Rakudai Kishi no Cavalry</span>
+                    </li>
+                    <li class="anime" id="sword-art-online">
+                        <img src="./src/img/sword.png">
+                        <span>Sword Art Online</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <script src="./src/js/scripts.js"></script>
+</body>
+</html>
